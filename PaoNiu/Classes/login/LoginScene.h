@@ -10,13 +10,14 @@
 #define __PaoNiu__StartScene__
 
 #include "cocos2d.h"
+#include "LoginDelegate.h"
+
 USING_NS_CC;
 
-class StartScene:public CCScene{
+class LoginScene:public CCScene{
 public:
-//    static StartScene* scene();
     bool init();
-    CREATE_FUNC(StartScene);
+    CREATE_FUNC(LoginScene);
 private:
     CCSize winSize;
 };

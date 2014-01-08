@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
-#include "StartScene.h"
+//#include "StartScene.h"
 //#include "GameMenuScene.h"
+#include "LoginScene.h"
 
 USING_NS_CC;
 
@@ -29,7 +30,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 //    CCScene *pScene = StartScene::scene();
 
     // run
-    pDirector->runWithScene(StartScene::create());
+    pDirector->runWithScene(LoginScene::create());
 
     return true;
 }

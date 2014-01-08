@@ -338,8 +338,18 @@
 		120679AB187BFBBF001BD908 /* tb.png in Resources */ = {isa = PBXBuildFile; fileRef = 12067970187BFBBE001BD908 /* tb.png */; };
 		120679AC187BFBBF001BD908 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 12067971187BFBBE001BD908 /* title.png */; };
 		120679AD187BFBBF001BD908 /* YuGuZD.png in Resources */ = {isa = PBXBuildFile; fileRef = 12067972187BFBBF001BD908 /* YuGuZD.png */; };
-		120679F4187C02B5001BD908 /* StartLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120679F2187C02B5001BD908 /* StartLayer.cpp */; };
-		120679F8187C0495001BD908 /* StartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120679F6187C0495001BD908 /* StartScene.cpp */; };
+		12CB12A9187CD698008F7847 /* UIComm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12A7187CD698008F7847 /* UIComm.cpp */; };
+		12CB12B6187CE13B008F7847 /* LoginDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12B0187CE13B008F7847 /* LoginDelegate.cpp */; };
+		12CB12B7187CE13B008F7847 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12B2187CE13B008F7847 /* LoginLayer.cpp */; };
+		12CB12B8187CE13B008F7847 /* LoginScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12B4187CE13B008F7847 /* LoginScene.cpp */; };
+		12CB12BD187CE1E3008F7847 /* LoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12BB187CE1E3008F7847 /* LoadScene.cpp */; };
+		12CB12C0187CE215008F7847 /* LoadDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12BE187CE215008F7847 /* LoadDelegate.cpp */; };
+		12CB12C3187CE27E008F7847 /* LoadLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12C1187CE27E008F7847 /* LoadLayer.cpp */; };
+		12CB12C7187CE653008F7847 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12C5187CE653008F7847 /* MainScene.cpp */; };
+		12CB12CA187CE663008F7847 /* MainDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12C8187CE663008F7847 /* MainDelegate.cpp */; };
+		12CB12CD187CE66F008F7847 /* MainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12CB187CE66F008F7847 /* MainLayer.cpp */; };
+		12CB12D0187CE8DF008F7847 /* MenuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12CE187CE8DF008F7847 /* MenuLayer.cpp */; };
+		12CB12D4187CF2CB008F7847 /* TollgateItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CB12D2187CF2CB008F7847 /* TollgateItem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -990,10 +1000,30 @@
 		12067970187BFBBE001BD908 /* tb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tb.png; path = Resources/tb.png; sourceTree = "<group>"; };
 		12067971187BFBBE001BD908 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = Resources/title.png; sourceTree = "<group>"; };
 		12067972187BFBBF001BD908 /* YuGuZD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YuGuZD.png; path = Resources/YuGuZD.png; sourceTree = "<group>"; };
-		120679F2187C02B5001BD908 /* StartLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StartLayer.cpp; path = Classes/my/StartLayer.cpp; sourceTree = "<group>"; };
-		120679F3187C02B5001BD908 /* StartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartLayer.h; path = Classes/my/StartLayer.h; sourceTree = "<group>"; };
-		120679F6187C0495001BD908 /* StartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StartScene.cpp; path = Classes/my/StartScene.cpp; sourceTree = "<group>"; };
-		120679F7187C0495001BD908 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartScene.h; path = Classes/my/StartScene.h; sourceTree = "<group>"; };
+		12CB12A7187CD698008F7847 /* UIComm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIComm.cpp; sourceTree = "<group>"; };
+		12CB12A8187CD698008F7847 /* UIComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIComm.h; sourceTree = "<group>"; };
+		12CB12B0187CE13B008F7847 /* LoginDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginDelegate.cpp; sourceTree = "<group>"; };
+		12CB12B1187CE13B008F7847 /* LoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDelegate.h; sourceTree = "<group>"; };
+		12CB12B2187CE13B008F7847 /* LoginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginLayer.cpp; sourceTree = "<group>"; };
+		12CB12B3187CE13B008F7847 /* LoginLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginLayer.h; sourceTree = "<group>"; };
+		12CB12B4187CE13B008F7847 /* LoginScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginScene.cpp; sourceTree = "<group>"; };
+		12CB12B5187CE13B008F7847 /* LoginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScene.h; sourceTree = "<group>"; };
+		12CB12BB187CE1E3008F7847 /* LoadScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadScene.cpp; sourceTree = "<group>"; };
+		12CB12BC187CE1E3008F7847 /* LoadScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadScene.h; sourceTree = "<group>"; };
+		12CB12BE187CE215008F7847 /* LoadDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadDelegate.cpp; sourceTree = "<group>"; };
+		12CB12BF187CE215008F7847 /* LoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDelegate.h; sourceTree = "<group>"; };
+		12CB12C1187CE27E008F7847 /* LoadLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadLayer.cpp; sourceTree = "<group>"; };
+		12CB12C2187CE27E008F7847 /* LoadLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadLayer.h; sourceTree = "<group>"; };
+		12CB12C5187CE653008F7847 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		12CB12C6187CE653008F7847 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		12CB12C8187CE663008F7847 /* MainDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainDelegate.cpp; sourceTree = "<group>"; };
+		12CB12C9187CE663008F7847 /* MainDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDelegate.h; sourceTree = "<group>"; };
+		12CB12CB187CE66F008F7847 /* MainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainLayer.cpp; sourceTree = "<group>"; };
+		12CB12CC187CE66F008F7847 /* MainLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLayer.h; sourceTree = "<group>"; };
+		12CB12CE187CE8DF008F7847 /* MenuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuLayer.cpp; sourceTree = "<group>"; };
+		12CB12CF187CE8DF008F7847 /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		12CB12D2187CF2CB008F7847 /* TollgateItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TollgateItem.cpp; sourceTree = "<group>"; };
+		12CB12D3187CF2CB008F7847 /* TollgateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollgateItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2272,10 +2302,11 @@
 			children = (
 				1206792D187BFB7F001BD908 /* AppDelegate.cpp */,
 				1206792C187BFB7F001BD908 /* AppDelegate.h */,
-				120679F2187C02B5001BD908 /* StartLayer.cpp */,
-				120679F3187C02B5001BD908 /* StartLayer.h */,
-				120679F6187C0495001BD908 /* StartScene.cpp */,
-				120679F7187C0495001BD908 /* StartScene.h */,
+				12CB12A6187CD698008F7847 /* global */,
+				12CB12B9187CE176008F7847 /* intro */,
+				12CB12BA187CE176008F7847 /* load */,
+				12CB12AF187CE13B008F7847 /* login */,
+				12CB12C4187CE62E008F7847 /* main */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2298,6 +2329,78 @@
 				12067968187BFBBE001BD908 /* sound_shot.mp3 */,
 			);
 			name = sound;
+			sourceTree = "<group>";
+		};
+		12CB12A6187CD698008F7847 /* global */ = {
+			isa = PBXGroup;
+			children = (
+				12CB12A7187CD698008F7847 /* UIComm.cpp */,
+				12CB12A8187CD698008F7847 /* UIComm.h */,
+			);
+			name = global;
+			path = Classes/global;
+			sourceTree = "<group>";
+		};
+		12CB12AF187CE13B008F7847 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				12CB12B0187CE13B008F7847 /* LoginDelegate.cpp */,
+				12CB12B1187CE13B008F7847 /* LoginDelegate.h */,
+				12CB12B2187CE13B008F7847 /* LoginLayer.cpp */,
+				12CB12B3187CE13B008F7847 /* LoginLayer.h */,
+				12CB12B4187CE13B008F7847 /* LoginScene.cpp */,
+				12CB12B5187CE13B008F7847 /* LoginScene.h */,
+			);
+			name = login;
+			path = Classes/login;
+			sourceTree = "<group>";
+		};
+		12CB12B9187CE176008F7847 /* intro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = intro;
+			path = Classes/intro;
+			sourceTree = "<group>";
+		};
+		12CB12BA187CE176008F7847 /* load */ = {
+			isa = PBXGroup;
+			children = (
+				12CB12BE187CE215008F7847 /* LoadDelegate.cpp */,
+				12CB12BF187CE215008F7847 /* LoadDelegate.h */,
+				12CB12C1187CE27E008F7847 /* LoadLayer.cpp */,
+				12CB12C2187CE27E008F7847 /* LoadLayer.h */,
+				12CB12BB187CE1E3008F7847 /* LoadScene.cpp */,
+				12CB12BC187CE1E3008F7847 /* LoadScene.h */,
+			);
+			name = load;
+			path = Classes/load;
+			sourceTree = "<group>";
+		};
+		12CB12C4187CE62E008F7847 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				12CB12D1187CF2BC008F7847 /* item */,
+				12CB12C8187CE663008F7847 /* MainDelegate.cpp */,
+				12CB12C9187CE663008F7847 /* MainDelegate.h */,
+				12CB12CB187CE66F008F7847 /* MainLayer.cpp */,
+				12CB12CC187CE66F008F7847 /* MainLayer.h */,
+				12CB12C5187CE653008F7847 /* MainScene.cpp */,
+				12CB12C6187CE653008F7847 /* MainScene.h */,
+				12CB12CE187CE8DF008F7847 /* MenuLayer.cpp */,
+				12CB12CF187CE8DF008F7847 /* MenuLayer.h */,
+			);
+			name = main;
+			path = Classes/main;
+			sourceTree = "<group>";
+		};
+		12CB12D1187CF2BC008F7847 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				12CB12D2187CF2CB008F7847 /* TollgateItem.cpp */,
+				12CB12D3187CF2CB008F7847 /* TollgateItem.h */,
+			);
+			name = item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2445,7 +2548,6 @@
 				12067620187BFB78001BD908 /* CCZone.cpp in Sources */,
 				1206777D187BFB7C001BD908 /* CCTextFieldTTF.cpp in Sources */,
 				12067902187BFB7E001BD908 /* cpArray.c in Sources */,
-				120679F8187C0495001BD908 /* StartScene.cpp in Sources */,
 				120676E1187BFB7B001BD908 /* CCLock.cpp in Sources */,
 				120678A0187BFB7E001BD908 /* CCSkeleton.cpp in Sources */,
 				12067791187BFB7C001BD908 /* CCParallaxNode.cpp in Sources */,
@@ -2465,8 +2567,10 @@
 				120677F2187BFB7D001BD908 /* CCLayerColorLoader.cpp in Sources */,
 				12067684187BFB7A001BD908 /* CCTransition.cpp in Sources */,
 				1206768E187BFB7A001BD908 /* CCMenu.cpp in Sources */,
+				12CB12C3187CE27E008F7847 /* LoadLayer.cpp in Sources */,
 				120678BB187BFB7E001BD908 /* Slot.cpp in Sources */,
 				120677C0187BFB7D001BD908 /* SimpleAudioEngine_objc.m in Sources */,
+				12CB12B6187CE13B008F7847 /* LoginDelegate.cpp in Sources */,
 				12067894187BFB7E001BD908 /* Attachment.cpp in Sources */,
 				120677A4187BFB7C001BD908 /* CCTouch.cpp in Sources */,
 				12067629187BFB79001BD908 /* CCDrawNode.cpp in Sources */,
@@ -2476,6 +2580,7 @@
 				120677A8187BFB7C001BD908 /* CCTouchDispatcher.cpp in Sources */,
 				120678AF187BFB7E001BD908 /* Skeleton.cpp in Sources */,
 				120677C8187BFB7D001BD908 /* AssetsManager.cpp in Sources */,
+				12CB12C0187CE215008F7847 /* LoadDelegate.cpp in Sources */,
 				1206764E187BFB7A001BD908 /* aabb.c in Sources */,
 				1206769E187BFB7A001BD908 /* CCRenderTexture.cpp in Sources */,
 				120676D8187BFB7B001BD908 /* CCES2Renderer.m in Sources */,
@@ -2538,6 +2643,7 @@
 				120678B8187BFB7E001BD908 /* Skin.cpp in Sources */,
 				12067812187BFB7D001BD908 /* CCScrollViewLoader.cpp in Sources */,
 				12067865187BFB7D001BD908 /* CCSorting.cpp in Sources */,
+				12CB12D4187CF2CB008F7847 /* TollgateItem.cpp in Sources */,
 				120677CF187BFB7D001BD908 /* CCBFileLoader.cpp in Sources */,
 				120678E6187BFB7E001BD908 /* chipmunk.c in Sources */,
 				120676CF187BFB7B001BD908 /* CCDevice.mm in Sources */,
@@ -2556,6 +2662,7 @@
 				120678A9187BFB7E001BD908 /* Json.cpp in Sources */,
 				12067772187BFB7C001BD908 /* unzip.cpp in Sources */,
 				12067842187BFB7D001BD908 /* CCControlSwitch.cpp in Sources */,
+				12CB12D0187CE8DF008F7847 /* MenuLayer.cpp in Sources */,
 				12067820187BFB7D001BD908 /* CCComController.cpp in Sources */,
 				1206790C187BFB7E001BD908 /* cpHashSet.c in Sources */,
 				12067764187BFB7C001BD908 /* tinyxml2.cpp in Sources */,
@@ -2566,8 +2673,10 @@
 				120677DD187BFB7D001BD908 /* CCBSequenceProperty.cpp in Sources */,
 				1206765C187BFB7A001BD908 /* neon_matrix_impl.c in Sources */,
 				12067904187BFB7E001BD908 /* cpBB.c in Sources */,
+				12CB12B8187CE13B008F7847 /* LoginScene.cpp in Sources */,
 				12067868187BFB7D001BD908 /* CCTableView.cpp in Sources */,
 				12067736187BFB7C001BD908 /* CCSpriteFrame.cpp in Sources */,
+				12CB12BD187CE1E3008F7847 /* LoadScene.cpp in Sources */,
 				1206765E187BFB7A001BD908 /* plane.c in Sources */,
 				120676D5187BFB7B001BD908 /* CCEGLView.mm in Sources */,
 				12067897187BFB7E001BD908 /* AttachmentLoader.cpp in Sources */,
@@ -2578,6 +2687,7 @@
 				12067753187BFB7C001BD908 /* CCComponent.cpp in Sources */,
 				1206778A187BFB7C001BD908 /* CCTextureETC.cpp in Sources */,
 				12067815187BFB7D001BD908 /* CCSpriteLoader.cpp in Sources */,
+				12CB12CA187CE663008F7847 /* MainDelegate.cpp in Sources */,
 				12067654187BFB7A001BD908 /* mat4stack.c in Sources */,
 				120677F8187BFB7D001BD908 /* CCLayerLoader.cpp in Sources */,
 				12067918187BFB7E001BD908 /* cpSpaceQuery.c in Sources */,
@@ -2629,8 +2739,10 @@
 				1206775A187BFB7C001BD908 /* ccCArray.cpp in Sources */,
 				1206761D187BFB78001BD908 /* CCString.cpp in Sources */,
 				12067881187BFB7E001BD908 /* CCPhysicsSprite.cpp in Sources */,
+				12CB12CD187CE66F008F7847 /* MainLayer.cpp in Sources */,
 				120675B6187BFB78001BD908 /* AppController.mm in Sources */,
 				120676BF187BFB7B001BD908 /* CCSAXParser.cpp in Sources */,
+				12CB12A9187CD698008F7847 /* UIComm.cpp in Sources */,
 				12067781187BFB7C001BD908 /* CCTexture2D.cpp in Sources */,
 				120677EC187BFB7D001BD908 /* CCLabelBMFontLoader.cpp in Sources */,
 				1206790E187BFB7E001BD908 /* cpPolyShape.c in Sources */,
@@ -2642,9 +2754,9 @@
 				12067885187BFB7E001BD908 /* Animation.cpp in Sources */,
 				120678A6187BFB7E001BD908 /* extension.cpp in Sources */,
 				1206782C187BFB7D001BD908 /* CCControlButton.cpp in Sources */,
-				120679F4187C02B5001BD908 /* StartLayer.cpp in Sources */,
 				12067660187BFB7A001BD908 /* quaternion.c in Sources */,
 				120675D2187BFB78001BD908 /* CCActionInstant.cpp in Sources */,
+				12CB12B7187CE13B008F7847 /* LoginLayer.cpp in Sources */,
 				1206781D187BFB7D001BD908 /* CCComAudio.cpp in Sources */,
 				1206791A187BFB7E001BD908 /* cpSpaceStep.c in Sources */,
 				120677BD187BFB7D001BD908 /* SimpleAudioEngine.mm in Sources */,
@@ -2668,6 +2780,7 @@
 				12067862187BFB7D001BD908 /* CCScrollView.cpp in Sources */,
 				12067743187BFB7C001BD908 /* CCPointExtension.cpp in Sources */,
 				1206780F187BFB7D001BD908 /* CCScale9SpriteLoader.cpp in Sources */,
+				12CB12C7187CE653008F7847 /* MainScene.cpp in Sources */,
 				1206774C187BFB7C001BD908 /* ccUtils.cpp in Sources */,
 				1206784F187BFB7D001BD908 /* CCEditBox.cpp in Sources */,
 				1206785E187BFB7D001BD908 /* CCEditBoxImplWin.cpp in Sources */,
@@ -2762,8 +2875,8 @@
 				INFOPLIST_FILE = PaoNiu/Resources/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/yss/Desktop/PaoNiu/PaoNiu/libs/cocos2dx/platform/third_party/ios/libraries,
-					/Users/yss/Desktop/PaoNiu/PaoNiu/libs/libwebsockets/ios/lib,
+					"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios/libraries",
+					"$(PROJECT_NAME)/libs/libwebsockets/ios/lib",
 				);
 				OTHER_LDFLAGS = (
 					"-lxml2",
@@ -2788,8 +2901,8 @@
 				INFOPLIST_FILE = PaoNiu/Resources/Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/yss/Desktop/PaoNiu/PaoNiu/libs/cocos2dx/platform/third_party/ios/libraries,
-					/Users/yss/Desktop/PaoNiu/PaoNiu/libs/libwebsockets/ios/lib,
+					"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios/libraries",
+					"$(PROJECT_NAME)/libs/libwebsockets/ios/lib",
 				);
 				OTHER_LDFLAGS = (
 					"-lxml2",
@@ -2823,6 +2936,7 @@
 				12067936187BFB7F001BD908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

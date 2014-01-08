@@ -6,15 +6,10 @@
 //
 //
 
-#include "StartScene.h"
-#include "StartLayer.h"
+#include "LoginScene.h"
+#include "LoginLayer.h"
 
-//StartScene* StartScene::scene(){
-//    CCScene *scene=CCScene::create();
-//    return scene;
-//}
-
-bool StartScene::init(){
+bool LoginScene::init(){
     if (!CCScene::init()) {
         return false;
     }
@@ -22,6 +17,10 @@ bool StartScene::init(){
     CCTextureCache::sharedTextureCache()->addImage("fishingjoy_resource.png");
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("fishingjoy_resource.plist");
     
-    addChild(StartLayer::create());
+    LoginDelegate* delegate=new LoginDelegate();
+    
+    LoginLayer* startLayer=LoginLayer::create();
+    startLayer->setDelegate(delegate);
+    addChild(startLayer);
     return true;
 }
