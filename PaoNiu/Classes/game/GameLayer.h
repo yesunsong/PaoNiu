@@ -1,13 +1,13 @@
 //
-//  MainLayer.h
+//  GameLayer.h
 //  PaoNiu
 //
 //  Created by 叶孙松 on 14-1-8.
 //
 //
 
-#ifndef __PaoNiu__MainLayer__
-#define __PaoNiu__MainLayer__
+#ifndef __PaoNiu__GameLayer__
+#define __PaoNiu__GameLayer__
 
 #include <iostream>
 #include "cocos2d.h"
@@ -15,19 +15,17 @@
 
 USING_NS_CC;
 
-class MainLayer:public CCLayer{
+class GameLayer:public CCLayer{
 public:
     CC_SYNTHESIZE(void*, _delegate, Delegate);
     
     bool init();
-    CREATE_FUNC(MainLayer);
-    void onEnter();
-    void onExit();
+    CREATE_FUNC(GameLayer);
 public:
+    
 private:
     CCSize winSize;
 private:
-    void turnToMail();
 };
 
-#endif /* defined(__PaoNiu__MainLayer__) */
+#endif /* defined(__PaoNiu__GameLayer__) */

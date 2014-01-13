@@ -21,15 +21,18 @@ bool TouchController::ccTouchBegan(CCTouch* touch, CCEvent* event)
 	}
     return true;
 }
+
 void TouchController::ccTouchMoved(CCTouch* touch, CCEvent* event)
 {
     this->getGameScene()->papawShowAt(this->locationFromTouch(touch));
 }
+
 void TouchController::ccTouchEnded(CCTouch* touch, CCEvent* event)
 {
     this->getGameScene()->setIsPapaw(false);
 	this->getGameScene()->papawShowAt(this->locationFromTouch(touch));
 }
+
 void TouchController::setTouchEnabled(bool flag)
 {
     if (m_bTouchEnabled != flag){
@@ -41,6 +44,7 @@ void TouchController::setTouchEnabled(bool flag)
         }
     }
 }
+
 CCPoint TouchController::locationFromTouch(CCTouch* touch)
 {
     //把点从UI坐标系转到GL坐标系

@@ -1,6 +1,6 @@
 #include "GameMenuScene.h"
-#include "GameAboutScene.h"
-#include "TollGateScene.h"
+//#include "GameAboutScene.h"
+//#include "TollGateScene.h"
 #include "GameScene.h"
 #include "SimpleAudioEngine.h"
 
@@ -125,7 +125,7 @@ void GameMenu::menuContinueCallback(CCObject* pSender)
 }
 void GameMenu::menuAboutCallback(CCObject* pSender)
 {
-    CCDirector::sharedDirector()->replaceScene(GameAbout::scene());
+//    CCDirector::sharedDirector()->replaceScene(GameAbout::scene());
 }
 void GameMenu::menuSoundCallback(CCObject* pSender)
 {

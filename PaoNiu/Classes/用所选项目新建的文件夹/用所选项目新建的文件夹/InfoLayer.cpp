@@ -1,7 +1,7 @@
 #include "InfoLayer.h"
 #include "GameMenuScene.h"
 
-#include "DynamicData.h"
+//#include "DynamicData.h"
 USING_NS_CC;
 
 //float mTime= 60;
@@ -25,21 +25,11 @@ bool InfoLayer::init(){
 	}
 
   
-	gamemark = new MarkController();
-    addChild(gamemark,4);
+//	gamemark = new MarkController();
+//    addChild(gamemark,4);
 
-	//gamemark->mark = 0;
-	gameGold = new GoldController();
-	
-	//gameGold->setGold(100);
-
-    addChild(gameGold,5);
-
-
-
-	//计时器的显示label
-
-	//m_time0 = 60;
+//	gameGold = new GoldController();
+//    addChild(gameGold,5);
 
 	CCSize size = CCDirector::sharedDirector()->getWinSize();
 	lfTime = CCLabelBMFont::create("0", "bitmapFontTest4.fnt");
@@ -80,9 +70,9 @@ void InfoLayer::gameTimer(float dt)
 
 void InfoLayer::addMark(int addMark){ 
   
-	gamemark->addnumber(addMark);
+//	gamemark->addnumber(addMark);
 }
 void InfoLayer::subGold(int subGold){ 
   
-	gameGold->subNumber(subGold);
+//	gameGold->subNumber(subGold);
 }

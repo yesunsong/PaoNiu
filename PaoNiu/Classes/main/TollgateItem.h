@@ -13,14 +13,23 @@
 #include "cocos2d.h"
 USING_NS_CC;
 
-class TollgateItem:public CCNode{
-
+class TollgateItem:public CCNode,public CCTargetedTouchDelegate{
 public:
+    CC_SYNTHESIZE(CCRect, m_hotArea, HotArea);
+    CC_SYNTHESIZE(void*, _delegate, Delegate);
+    
     bool init();
     CREATE_FUNC(TollgateItem);
+    
+    void onEnter();
+    void onExit();
+    bool ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
+    void ccTouchEnded(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
+    
 public:
     void setTollgate(const char* name,int score,int type);
 private:
+    CCSprite* itemBg;
     CCLabelTTF* _nameLabel;
     CCLabelTTF* _scoreLabel;
     CCLabelTTF* _medalLabel;
@@ -28,6 +37,9 @@ private:
     char* tollgateName;//关卡名称
     int score;//分数
     int medalType;//勋章类型
+    
+private:
+    void registerWithTouchDispatcher();
     
 };
 #endif /* defined(__PaoNiu__TollgateItem__) */

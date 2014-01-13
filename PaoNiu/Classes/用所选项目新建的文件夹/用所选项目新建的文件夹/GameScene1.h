@@ -2,7 +2,7 @@
 #define _GameScene_h
 #include "cocos2d.h"
 
-#include "InfoLayer.h"
+//#include "InfoLayer.h"
 #include "GirlLayer.h"
 #include "GameLayer.h"
 #include "TouchController.h"
@@ -48,7 +48,7 @@ public:
     void cannonShootTo(cocos2d::CCPoint target);
 
     void scheduleTimeUp();
-	InfoLayer * _infoLayer;
+//	InfoLayer * _infoLayer;
 	GirlLayer * _girlLayer;
 	GameLayer * _gameLayer;
 

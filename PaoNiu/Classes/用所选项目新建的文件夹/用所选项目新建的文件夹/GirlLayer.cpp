@@ -18,7 +18,7 @@ bool GirlLayer::init()
             GirlController* girl = GirlController::create((GirlType)0);
             _girls->addObject(girl);
         }
-
+        
 		_boys = CCArray::createWithCapacity(capacity);
         CC_SAFE_RETAIN(_boys);
         
@@ -27,7 +27,7 @@ bool GirlLayer::init()
             GirlController* boy = GirlController::create((GirlType)1);
             _boys->addObject(boy);
         }
-
+        
         this->schedule(schedule_selector(GirlLayer::addGirl), 3.0);
 		this->schedule(schedule_selector(GirlLayer::addBoy), 5.0);
         return true;
@@ -60,19 +60,11 @@ void GirlLayer::resetGirl(GirlController* girl)
     float startX, startY, endX, endY;
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
     CCSize girlSize = girl->getGirlSprite()->getContentSize();
-    //int direction = CCRANDOM_0_1()*2;
-   // if(direction)
-	//{
-        girl->setRotation(180);
-        startY = winSize.height + girlSize.height*0.5;
-        endY = -girlSize.height*0.5;
-    //}
-	//else
-	//{
-     //   girl->setRotation(0);
-    //    startY = -girlSize.height*0.5;
-    //    endY = winSize.height + girlSize.height*0.5;
-   // }
+    
+    girl->setRotation(180);
+    startY = winSize.height + girlSize.height*0.5;
+    endY = -girlSize.height*0.5;
+  
     startX = CCRANDOM_0_1()*(winSize.width-2*girlSize.width)+girlSize.width;
     endX = startX;
     
@@ -108,19 +100,11 @@ void GirlLayer::resetBoy(BoyController* boy)
     float startX, startY, endX, endY;
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
     CCSize boySize = boy->getBoySprite()->getContentSize();
-    //int direction = CCRANDOM_0_1()*2;
-   // if(direction)
-	//{
-        boy->setRotation(180);
-        startY = winSize.height + boySize.height*0.5;
-        endY = -boySize.height*0.5;
-    //}
-	//else
-	//{
-     //   girl->setRotation(0);
-    //    startY = -girlSize.height*0.5;
-    //    endY = winSize.height + girlSize.height*0.5;
-   // }
+   
+    boy->setRotation(180);
+    startY = winSize.height + boySize.height*0.5;
+    endY = -boySize.height*0.5;
+
     startX = CCRANDOM_0_1()*(winSize.width-2*boySize.width)+boySize.width;
     endX = startX;
     

@@ -17,6 +17,7 @@ bool LoadScene::init(){
     CCTextureCache::sharedTextureCache()->addImage("fishingjoy_resource.png");
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("fishingjoy_resource.plist");
     
+    
     LoadDelegate* delegate=new LoadDelegate();
     
     LoadLayer* loadLayer=LoadLayer::create();

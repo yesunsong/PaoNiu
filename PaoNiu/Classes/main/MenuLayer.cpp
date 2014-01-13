@@ -43,10 +43,6 @@ bool MenuLayer::init(){
     return true;
 }
 
-void MenuLayer::setDelegate(void* delegate){
-    _delegate=delegate;
-}
-
 void MenuLayer::trunToHelp(){
     ((MainDelegate*)_delegate)->openHelpPage();
 }

@@ -14,14 +14,16 @@ USING_NS_CC;
 
 class MenuLayer:public CCLayer{
 public:
+    CC_SYNTHESIZE(void*, _delegate, Delegate);
+    
     bool init();
     CREATE_FUNC(MenuLayer);
     
 public:
-    void setDelegate(void* delegate);
+//    void setDelegate(void* delegate);
 private:
     CCSize winSize;
-    void* _delegate;
+//    void* _delegate;
     
 private:
     void trunToHelp();

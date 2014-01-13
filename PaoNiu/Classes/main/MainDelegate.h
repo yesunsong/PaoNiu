@@ -17,6 +17,7 @@ public:
     virtual void openHPropPage();
     virtual void openSettingPage();
     virtual void openMailPage();
+    virtual void turnToMainGame();
 };
 
 #endif /* defined(__PaoNiu__MainDelegate__) */

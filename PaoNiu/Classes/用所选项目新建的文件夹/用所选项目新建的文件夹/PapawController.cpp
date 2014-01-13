@@ -7,7 +7,7 @@
 //
 
 #include "PapawController.h"
-#include "StaticData.h"
+//#include "StaticData.h"
 USING_NS_CC;
 
 PapawController* PapawController::create(PapawType type)
@@ -20,7 +20,7 @@ PapawController* PapawController::create(PapawType type)
 
 bool PapawController::init(PapawType type)
 {
-    _papawSprite = CCSprite::createWithSpriteFrameName(STATIC_DATA_STRING("fishing_net"));
+    _papawSprite = CCSprite::createWithSpriteFrameName("fishing_net.png");
 	//_papawSprite->setPosition(ccp(-100,-100));
     this->addChild(_papawSprite);
     return true;
@@ -33,6 +33,7 @@ void PapawController::showAt(CCPoint pos)
     this->stopAllActions();
     this->runAction(this->netAction());
 }
+
 CCAction* PapawController::netAction()
 {
     CCDelayTime* delayTime = CCDelayTime::create(2.0);
@@ -44,6 +45,7 @@ CCAction* PapawController::netAction()
 	//this->setPosition(ccp(-100,-100));
     return seq;
 }
+
 CCRect PapawController::getCollisionArea()
 {
     CCPoint origin = this->getParent()->convertToWorldSpace(this->getPosition());

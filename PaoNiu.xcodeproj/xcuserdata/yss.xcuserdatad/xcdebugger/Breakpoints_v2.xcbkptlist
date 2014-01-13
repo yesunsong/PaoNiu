@@ -2,4 +2,22 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PaoNiu/Classes/&#29992;&#25152;&#36873;&#39033;&#30446;&#26032;&#24314;&#30340;&#25991;&#20214;&#22841;/&#29992;&#25152;&#36873;&#39033;&#30446;&#26032;&#24314;&#30340;&#25991;&#20214;&#22841;/GameMenuScene.cpp"
+            timestampString = "410881215.037553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "GameMenu::menuContinueCallback(CCObject* pSender)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
